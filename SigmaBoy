@@ -1,0 +1,58 @@
+{
+    "Haberler": [
+        [1, "03/11/2021: Pkixbe Hub 4.2 yayınlandı. Yeni başlatıcıyı ve eklenen yeni tema desteğini umarız beğenirsiniz.."],
+    ],
+    "StatusData": {
+        "PkixbeHub": "Online",
+        "HubAPI": "Online",
+        "PkixbeLauncher": "Online"
+    },
+    "LatestVersion": "https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub.lua",
+    "Themes": {
+        "Varsayılan": {
+            "ThemeIndex": 1,
+            "Primary": [41, 53, 68],
+            "Secondary": [35, 47, 62],
+            "Tertiary": [28, 41, 56],
+            "Quaternary": [18, 98, 159],
+            "ScrollBarColor": [14, 21, 30],
+            "DefaultTextColor": [255, 255, 255]
+        },
+        "Dark": {
+            "ThemeIndex": 2,
+            "Primary": [25, 25, 25],
+            "Secondary": [30, 30, 30],
+            "Tertiary": [35, 35, 35],
+            "Quaternary": [40, 40, 40],
+            "ScrollBarColor": [14, 21, 30],
+            "DefaultTextColor": [255, 255, 255]
+        },
+        "Siyah and Kırmızı": {
+            "ThemeIndex": 3,
+            "Primary": [25, 25, 25],
+            "Secondary": [30, 30, 30],
+            "Tertiary": [35, 35, 35],
+            "Quaternary": [190, 35, 35],
+            "ScrollBarColor": [14, 21, 30],
+            "DefaultTextColor": [240, 240, 240]
+        },
+        "Crepe Pink": {
+            "ThemeIndex": 4,
+            "Primary": [213, 153, 125],
+            "Secondary": [203, 133, 101],
+            "Tertiary": [213, 127, 89],
+            "Quaternary": [237, 169, 139],
+            "ScrollBarColor": [14, 21, 30],
+            "DefaultTextColor": [255, 255, 255]
+        },
+        "Aqua Lake": {
+            "ThemeIndex": 5,
+            "Primary": [53, 99, 96],
+            "Secondary": [89, 149, 156],
+            "Tertiary": [75, 145, 150],
+            "Quaternary": [73, 143, 138],
+            "ScrollBarColor": [14, 21, 30],
+            "DefaultTextColor": [255, 255, 255]
+        }
+    }
+}
