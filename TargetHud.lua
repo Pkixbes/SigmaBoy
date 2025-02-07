@@ -17,7 +17,7 @@ screenGui.Parent = playerGui
 
 -- Create the outer box (background)
 local outerBox = Instance.new("Frame")
-outerBox.Size = UDim2.new(0, 200, 0, 120) -- Increased height for equipped item
+outerBox.Size = UDim2.new(0, 250, 0, 120) -- Increased height for equipped item
 outerBox.Position = UDim2.new(0.5, -100, 0.8, -140) -- Centered horizontally
 outerBox.BackgroundColor3 = Color3.fromRGB(22, 22, 31) -- Dark gray
 outerBox.BackgroundTransparency = getgenv().targethud.backgroundTransparency -- Set transparency
