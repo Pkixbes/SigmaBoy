@@ -155,7 +155,7 @@ if not requestsDisabled then
 						reporter.report("Rayfield", Release, InterfaceBuild)
 					end)
 				else
-					warn("Failed to load or execute the reporter. \nPlease notify Rayfield developers at sirius.menu/discord.")
+					warn("Failed to load or execute the reporter. \nPlease notify Rayfield developers at discord.gg/49vc3a822F.")
 				end
 			end)
 			if debugX then warn('Finished Report') end
@@ -957,7 +957,7 @@ function RayfieldLibrary:Notify(data) -- action e.g open messages
 
 		if data.Actions then
 			warn('Rayfield | Not seeing your actions in notifications?')
-			print("Notification Actions are being sunset for now, keep up to date on when they're back in the discord. (sirius.menu/discord)")
+			print("Notification Actions are being sunset for now, keep up to date on when they're back in the discord. (discord.gg/49vc3a822F)")
 		end
 
 		-- Calculate textbounds and set initial values
@@ -1542,8 +1542,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(180, 600))
 				RayfieldLibrary:Notify({
-					Title = "Rayfield Interface",
-					Content = "Would you like to speak with owners? /discord",
+					Title = "Brothers Hub",
+					Content = "Having fun using Brothers Hub? You can come to our Discord server discord.gg/49vc3a822F",
 					Duration = 7,
 					Image = 4370033185,
 				})
